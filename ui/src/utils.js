@@ -102,7 +102,6 @@ export const getRequestParamsForModel = async (
   const url = "http://localhost:8000/transcribe";
   const formData = new FormData();
   formData.append("file", uploadedFile);
-  formData.append("diarize", true);
   if (targetLang) {
     formData.append("target_language", targetLang);
   }

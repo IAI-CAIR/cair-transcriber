@@ -126,10 +126,6 @@ export default function SubtitleEditor({
                       <p>
                         {formatTime(element.start).replace(",", ".")} -{" "}
                         {formatTime(element.end).replace(",", ".")}
-                        <br />
-                        <span className="text-gray-500">
-                          {element.speaker ? `${element.speaker}` : ""}
-                        </span>
                       </p>
                     </td>
                     <td className="flex items-center gap-3">
@@ -165,7 +161,7 @@ export default function SubtitleEditor({
         </div>
         {/* <div className=""> */}
         <p className="md:text-center text-gray-600  ">
-          CAIR Transcriber can make mistakes. Consider checking important
+          IndicSubtitler can make mistakes. Consider checking important
           information.
         </p>
         {/* </div> */}

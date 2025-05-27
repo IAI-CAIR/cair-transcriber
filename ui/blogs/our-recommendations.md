@@ -8,7 +8,7 @@ description: "Our list of best practises for each languages, this will help you 
 tags: [best-practises, model-selection, ASR]
 ---
 
-## About CAIR Transcriber
+## About Indic Subtitler
 
 An open source subtitling platform 💻 for transcribing videos/audios in Indic languages and translating subtitles as well using ML models.
 It is powered by models like SeamlessM4T, faster-whisper, WhisperX and Vegam-Whisper which support almost 12 Indic languages by default.
@@ -38,7 +38,7 @@ faster-Whisper > WhisperX > SeamlessM4T
 #### For Telugu
 Faster-Whisper > WhisperX > SeamlessM4T ([based on #8](https://github.com/kurianbenoy/Indic-Subtitler/pull/8))
 
-## About the models available in CAIR Transcriber
+## About the models available in Indic Subtitler
 
 #### 1. SeamlessM4T
 
