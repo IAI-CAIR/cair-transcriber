@@ -24,9 +24,8 @@ model_path = "./largev3"  # Adjust to your model path
 model = WhisperModel(model_path, device="cuda", compute_type="int8_float16")
 
 # Initialize PyAnnote pipeline (Load once)
-diarization_pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", 
-                                                # use_auth_token
-                                                )
+hf_token = "enter your huggingface token"  # <-- Replace with your actual HF token
+diarization_pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization", use_auth_token=hf_token)
 
 @app.get("/")
 async def read_root():
